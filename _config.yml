@@ -20,7 +20,7 @@
 title:            'Sylvester Manor'
 description:      'Trying to figure this out'
 url:              'https://katelynautumn28.github.io/testsm1/'
-baseurl:          '/wax'
+baseurl:          '/testsm1'
 copyright:        'Example copyright org, 2023'
 logo:             '/assets/logo.png'
 default_thumb:    '/assets/default.png'
