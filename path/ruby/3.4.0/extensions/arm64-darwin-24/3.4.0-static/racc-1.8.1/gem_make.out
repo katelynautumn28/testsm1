@@ -1,0 +1,19 @@
+current directory: /Users/katelynautumn28/Desktop/testsm1/path/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+/Users/katelynautumn28/.rubies/ruby-3.4.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/katelynautumn28/Desktop/testsm1/path/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250314-77860-xar53i sitelibdir\=./.gem.20250314-77860-xar53i clean
+
+current directory: /Users/katelynautumn28/Desktop/testsm1/path/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250314-77860-xar53i sitelibdir\=./.gem.20250314-77860-xar53i
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+ld: warning: search path '/opt/homebrew/opt/gdbm/lib' not found
+
+current directory: /Users/katelynautumn28/Desktop/testsm1/path/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250314-77860-xar53i sitelibdir\=./.gem.20250314-77860-xar53i install
+/opt/homebrew/bin/ginstall -c -m 0755 cparse.bundle ./.gem.20250314-77860-xar53i/racc
+
+current directory: /Users/katelynautumn28/Desktop/testsm1/path/ruby/3.4.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250314-77860-xar53i sitelibdir\=./.gem.20250314-77860-xar53i clean
