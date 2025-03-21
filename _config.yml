@@ -33,7 +33,7 @@ default_thumb:    '/assets/default.png'
 permalink: 'pretty'
 sass:
   style: compressed
-exclude: ["Gemfile*", "*.gemspec", "Rakefile", "vendor", "spec", "README.md", "LICENSE.txt", "Docker*"]
+exclude: ["Gemfile*", "*.gemspec", "Rakefile", "vendor", "spec", "README.md", "LICENSE.txt", "Docker*", "path/ruby/3.4.0/gems/*"]
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
@@ -61,7 +61,7 @@ collections:
     output: true
   testsm1: # name of collection
     output: true # makes sure pages are output as html files
-    layout: 'testsm1_item.html' # the layout for the pages to use
+    layout: 'default' # the layout for the pages to use
     metadata:
       source: 'testsm1.csv' # path to the metadata file within `_data`
     images:
