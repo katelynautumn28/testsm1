@@ -33,7 +33,7 @@ default_thumb:    '/assets/default.png'
 permalink: 'pretty'
 sass:
   style: compressed
-exclude: ["Gemfile*", "*.gemspec", "Rakefile", "vendor", "spec", "README.md", "LICENSE.txt", "Docker*", "path/ruby/3.4.0/gems/*"]
+exclude: ["Gemfile*", "*.gemspec", "Rakefile", "vendor", "spec", "README.md", "LICENSE.txt", "Docker*"]
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
